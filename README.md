@@ -1,8 +1,8 @@
-#Rancher plugin go version
+<h1>Rancher plugin go version</h1>
 
 This plugin is for solving JavaScript plugin which doesn't failed event if the drone workload isn't updated.
 
-##How to test
+<h2>How to test</h2>
 
 ```
 export PLUGIN_PROJECT_API = ${Your Rancher workload API}
@@ -13,7 +13,7 @@ export PLUGIN_SECRET_KEY = ${Your Rancher API secret key}
 go main.go
 ```
 
-##HOW to use
+<h2>HOW to use</h2>
 
 You can use this way:
 
