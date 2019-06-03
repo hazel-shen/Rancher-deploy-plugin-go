@@ -17,6 +17,7 @@ go main.go
 
 You can use this way:
 
+```
 pipeline:
 deploy-on-rancher:
     image: hazel910159/drone-deploy-plugin-go:v8
@@ -27,3 +28,4 @@ deploy-on-rancher:
     when:
       event: [push]
       branch: [beta, master]
+```
